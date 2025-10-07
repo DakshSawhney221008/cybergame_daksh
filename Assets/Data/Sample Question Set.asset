@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba184e549eb27a41a6903cc6fb706ea, type: 3}
+  m_Name: Sample Question Set
+  m_EditorClassIdentifier: 
+  setName: Sample Quiz Questions
+  questions:
+  - text: What is the capital of France?
+    options:
+    - London
+    - Paris
+    - Berlin
+    - Madrid
+    correctIndex: 1
+  - text: Which planet is known as the Red Planet?
+    options:
+    - Venus
+    - Mars
+    - Jupiter
+    - Saturn
+    correctIndex: 1
+  - text: What is 2 + 2?
+    options:
+    - 3
+    - 4
+    - 5
+    - 6
+    correctIndex: 1
+  - text: In which year did World War II end?
+    options:
+    - 1944
+    - 1945
+    - 1946
+    - 1947
+    correctIndex: 1
+  - text: What is the largest mammal in the world?
+    options:
+    - Elephant
+    - Blue Whale
+    - Giraffe
+    - Hippopotamus
+    correctIndex: 1
+  timePerQuestion: 60
