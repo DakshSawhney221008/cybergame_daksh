@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serverPort: 5001
-  _forceIpv4: 0
+  _forceIpv4: 1
   _maxConnections: 100
   _address: 127.0.0.1
   _query: 
